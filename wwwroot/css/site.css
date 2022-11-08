@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.hovercs {
+    border: unset;
+    background: linear-gradient(-45deg, #ADA996, #ADA996, #D3CBB8 ) right/300% 100% no-repeat, linear-gradient(-45deg, #19547b, #e4e1e143, #19547b ) right/300% 100% no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.8s
+}
+    .hovercs:hover {
+        background-position: left;
+    }
+
